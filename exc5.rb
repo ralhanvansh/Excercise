@@ -37,3 +37,9 @@ puts "Pounds = #{pounds}"
 puts "kilograms = #{kilograms}"
 puts "Converting kilograms to pounds = #{kgtopounds}"
 puts "converting pounds to kilograms = #{poundstokg}"
+
+#using get
+
+puts "Enter Pound to Convert into Kg"
+pounds = gets.chomp.to_f
+puts "Pound to Kg = #{pounds * 0.453}"
