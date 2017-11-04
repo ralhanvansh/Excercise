@@ -15,3 +15,25 @@ puts "His teeth are usually #{teeth} depending on the coffee."
 
 # this line is tricky, try to get it exactly right
 puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
+
+#Study Drill 2
+puts "\n \n	"
+inches = 12
+centimeters = 5
+inchestocm = inches * 2.54
+cmtoinches = centimeters/2.54
+
+puts "Inches = #{inches}"
+puts "centimeters = #{centimeters}"
+puts "Converting centimeters to inches = #{cmtoinches}"
+puts "converting inches to centimeters = #{inchestocm}"
+
+puts "\n \n	"
+pounds = 180
+kilograms = 74
+poundstokg = pounds * 0.453
+kgtopounds = kilograms * 2.204
+puts "Pounds = #{pounds}"
+puts "kilograms = #{kilograms}"
+puts "Converting kilograms to pounds = #{kgtopounds}"
+puts "converting pounds to kilograms = #{poundstokg}"
