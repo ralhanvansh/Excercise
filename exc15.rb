@@ -1,16 +1,14 @@
 #getting file name from user
-filename = ARGV.first
+filename1, filename2 = ARGV
 
 #opening the file
-txt = open(filename)
+txt = open(filename1)
 
-puts "Here's your file #{filename}:"
+puts "Here's your file #{filename1}:"
 #reading the file
-print txt.read
-
-print "Type the filename again: "
-file_again = $stdin.gets.chomp
-
-txt_again = open(file_again)
+puts txt.read
+	
+puts "Here's your second file #{filename2}"
+txt_again = open(filename2)
 
 print txt_again.read
